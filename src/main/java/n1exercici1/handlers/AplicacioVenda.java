@@ -81,7 +81,7 @@ public class AplicacioVenda {
 		try {
 			venda.calcularVenda();	
 		}catch (VendaBuidaException e) {
-			System.out.println(e.getMessage());
+			System.out.println(e);
 		}
 		
 		afegirArrayProductes(100, producte6);
@@ -90,7 +90,7 @@ public class AplicacioVenda {
 			afegirVendaProductes(venda1);
 			System.out.println(venda1.calcularVenda());
 		}catch (VendaBuidaException e) {
-			System.out.println(e.getMessage());
+			System.out.println(e);
 		}		
 	}		
 }

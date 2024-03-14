@@ -7,8 +7,8 @@ public class VendaBuidaException extends Exception{
 	private String message = "";
 	
 	public VendaBuidaException(String message) {
-		super();
-		this.message = message;
+		super(message);
+	
 	}
 
 	public String getMessage() {
